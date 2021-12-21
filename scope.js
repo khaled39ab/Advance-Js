@@ -30,23 +30,6 @@ console.log(result);
 // console.log(iAmBlocked); // Blocked variable can't access from out of his block
 
 //lexical scope
-// function outer (){
-//     const t = 100;
-//     function inner (){
-//         const s = 80;
-//         function inner2(){
-//             const sum = iAmGlobal + t + s;
-//             return sum;
-//         }
-//         const sum = inner2();
-//         return sum;
-//     }
-//     const sum = inner();
-//     return sum;
-// }
-// const sum = outer();
-// console.log(sum);
-
 function outer (){
     const t = 100;
     function inner (){
