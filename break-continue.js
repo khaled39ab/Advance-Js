@@ -9,7 +9,9 @@ for (let i = 0; i < nums.length; i++) {
     }
     console.log(element);
 }
+
 console.log("----------------");
+
 const numbers = [ 1, -6, 2, -4, 8, 9, -3];
 
 for (let i = 0; i < numbers.length; i++) {
